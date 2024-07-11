@@ -23,7 +23,7 @@ function AppContainer() {
 	const [tabIndex, setTabIndex] = useState(0);
 
 	const handleTabChange = (
-		event: React.SyntheticEvent,
+		_event: React.SyntheticEvent,
 		newValue: SetStateAction<number>
 	) => {
 		console.log(newValue);
