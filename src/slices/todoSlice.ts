@@ -5,14 +5,14 @@ import { RootState } from "../store/store";
 
 const initialState = {
     todos: <ItemType[]>[{
-        id: '1',
-        title: 'Make a hello world application',
+        id: crypto.randomUUID(),
+        title: 'Add a todo item',
         completed: false,
         createdOn: Date.now().toString()
     },
     {
-        id: '2',
-        title: 'Make a redux application',
+        id: crypto.randomUUID(),
+        title: 'Make a todo application using react-redux',
         completed: true,
         createdOn: Date.now().toString(),
         completedOn: Date.now().toString()
