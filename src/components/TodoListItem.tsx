@@ -39,7 +39,7 @@ function TodoListItem(props: TodoListItemProps) {
 					onChange={() => props.onChange(props.id)}
 				/>
 				<div>
-					<Typography sx={textStyle} variant="h4">
+					<Typography sx={textStyle} variant="h4" gutterBottom>
 						{props.title}
 					</Typography>
 					<div>
